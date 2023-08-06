@@ -5,10 +5,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  size: 80%;
 }
 body {
   background: #E3F2FD;
 }
+
 .chatbot-toggler {
   position: fixed;
   bottom: 30px;
@@ -191,4 +193,20 @@ header h2 {
   .chatbot header span {
     display: block;
   }
+}
+h1 {
+  text-align : center;
+  size: 2em !important; 
+  color:darkblue;
+  margin-top: 200px
+}
+h2 {
+  text-align : center;
+  margin-top: 200px;
+  color : darkblue;
+  font-family: Helvetica;
+}
+
+.chatbot h2{
+  color: white;
 }
